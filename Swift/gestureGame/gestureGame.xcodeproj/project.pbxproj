@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF02FBCE25D27F67008CD8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF02FBCD25D27F67008CD8BE /* AppDelegate.swift */; };
+		AF02FBD025D27F67008CD8BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF02FBCF25D27F67008CD8BE /* SceneDelegate.swift */; };
+		AF02FBD225D27F67008CD8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF02FBD125D27F67008CD8BE /* ViewController.swift */; };
+		AF02FBD525D27F67008CD8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF02FBD325D27F67008CD8BE /* Main.storyboard */; };
+		AF02FBD825D27F67008CD8BE /* gestureGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF02FBD625D27F67008CD8BE /* gestureGame.xcdatamodeld */; };
+		AF02FBDA25D27F69008CD8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF02FBD925D27F69008CD8BE /* Assets.xcassets */; };
+		AF02FBDD25D27F69008CD8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF02FBDB25D27F69008CD8BE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF02FBCA25D27F67008CD8BE /* gestureGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestureGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF02FBCD25D27F67008CD8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF02FBCF25D27F67008CD8BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF02FBD125D27F67008CD8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF02FBD425D27F67008CD8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF02FBD725D27F67008CD8BE /* gestureGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gestureGame.xcdatamodel; sourceTree = "<group>"; };
+		AF02FBD925D27F69008CD8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF02FBDC25D27F69008CD8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF02FBDE25D27F69008CD8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF02FBC725D27F67008CD8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF02FBC125D27F67008CD8BE = {
+			isa = PBXGroup;
+			children = (
+				AF02FBCC25D27F67008CD8BE /* gestureGame */,
+				AF02FBCB25D27F67008CD8BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF02FBCB25D27F67008CD8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF02FBCA25D27F67008CD8BE /* gestureGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF02FBCC25D27F67008CD8BE /* gestureGame */ = {
+			isa = PBXGroup;
+			children = (
+				AF02FBCD25D27F67008CD8BE /* AppDelegate.swift */,
+				AF02FBCF25D27F67008CD8BE /* SceneDelegate.swift */,
+				AF02FBD125D27F67008CD8BE /* ViewController.swift */,
+				AF02FBD325D27F67008CD8BE /* Main.storyboard */,
+				AF02FBD925D27F69008CD8BE /* Assets.xcassets */,
+				AF02FBDB25D27F69008CD8BE /* LaunchScreen.storyboard */,
+				AF02FBDE25D27F69008CD8BE /* Info.plist */,
+				AF02FBD625D27F67008CD8BE /* gestureGame.xcdatamodeld */,
+			);
+			path = gestureGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF02FBC925D27F67008CD8BE /* gestureGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF02FBE125D27F69008CD8BE /* Build configuration list for PBXNativeTarget "gestureGame" */;
+			buildPhases = (
+				AF02FBC625D27F67008CD8BE /* Sources */,
+				AF02FBC725D27F67008CD8BE /* Frameworks */,
+				AF02FBC825D27F67008CD8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gestureGame;
+			productName = gestureGame;
+			productReference = AF02FBCA25D27F67008CD8BE /* gestureGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF02FBC225D27F67008CD8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AF02FBC925D27F67008CD8BE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = AF02FBC525D27F67008CD8BE /* Build configuration list for PBXProject "gestureGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF02FBC125D27F67008CD8BE;
+			productRefGroup = AF02FBCB25D27F67008CD8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF02FBC925D27F67008CD8BE /* gestureGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF02FBC825D27F67008CD8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF02FBDD25D27F69008CD8BE /* LaunchScreen.storyboard in Resources */,
+				AF02FBDA25D27F69008CD8BE /* Assets.xcassets in Resources */,
+				AF02FBD525D27F67008CD8BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF02FBC625D27F67008CD8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF02FBD225D27F67008CD8BE /* ViewController.swift in Sources */,
+				AF02FBD825D27F67008CD8BE /* gestureGame.xcdatamodeld in Sources */,
+				AF02FBCE25D27F67008CD8BE /* AppDelegate.swift in Sources */,
+				AF02FBD025D27F67008CD8BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF02FBD325D27F67008CD8BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF02FBD425D27F67008CD8BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF02FBDB25D27F69008CD8BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF02FBDC25D27F69008CD8BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF02FBDF25D27F69008CD8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF02FBE025D27F69008CD8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF02FBE225D27F69008CD8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS8T26U3AH;
+				INFOPLIST_FILE = gestureGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tableview.gestureGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF02FBE325D27F69008CD8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS8T26U3AH;
+				INFOPLIST_FILE = gestureGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tableview.gestureGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF02FBC525D27F67008CD8BE /* Build configuration list for PBXProject "gestureGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF02FBDF25D27F69008CD8BE /* Debug */,
+				AF02FBE025D27F69008CD8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF02FBE125D27F69008CD8BE /* Build configuration list for PBXNativeTarget "gestureGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF02FBE225D27F69008CD8BE /* Debug */,
+				AF02FBE325D27F69008CD8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF02FBD625D27F67008CD8BE /* gestureGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF02FBD725D27F67008CD8BE /* gestureGame.xcdatamodel */,
+			);
+			currentVersion = AF02FBD725D27F67008CD8BE /* gestureGame.xcdatamodel */;
+			path = gestureGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF02FBC225D27F67008CD8BE /* Project object */;
+}
